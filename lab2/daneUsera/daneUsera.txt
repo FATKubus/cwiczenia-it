@@ -1,0 +1,43 @@
+#!/bin/bash
+
+function silnia_rek {
+    if [ $1 -eq 0 ]; then
+        echo 1
+    else
+        local s=$(silnia_rek $(( $1 - 1 )))
+        echo $(( $1 * $s ))
+    fi
+}
+
+function silnia_petla {
+    local s=1
+    for (( i=1; i<=$1; i++ )); do
+        s=$(( $s * $i ))
+    done
+    echo $s
+}
+
+if [ $# -lt 4 ]; then
+    read -p "Podaj imię: " imie
+    read -p "Podaj nazwisko: " nazwisko
+    read -p "Podaj rok urodzenia: " rok
+    read -p "Podaj nazwę pliku: " filename
+else
+    imie=$1
+    nazwisko=$2
+    rok=$3
+    filename=$4
+fi
+
+aktualny_rok=$(date +%Y)
+wiek=$(( $aktualny_rok - $rok ))
+
+echo "Witaj, $imie $nazwisko! Masz $wiek lat."
+
+silnia_r=$(silnia_rek $wiek)
+silnia_p=$(silnia_petla $wiek)
+
+echo "$imie,$nazwisko,$rok,$wiek,$silnia_r,$silnia_p" >> "$filename"
+daneUsera
+daneUsera.txt
+zad2.sh

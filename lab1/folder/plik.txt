@@ -1,0 +1,41 @@
+Aktualne procesy:
+     UID     PID    PPID  TTY        STIME COMMAND
+   jtopc    1546       1 ?        12:34:24 /usr/bin/mintty
+   jtopc    1547    1546 pty0     12:34:24 /usr/bin/bash
+   jtopc    1575    1547 pty0     12:36:16 /usr/bin/bash
+   jtopc    1578    1575 pty0     12:36:16 /usr/bin/ps
+
+Rozmiary i ilość dostępnego miejsca na zamontowanych dyskach:
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  253G   98G  155G  39% /
+D:                    700G  356G  345G  51% /d
+X:                    1.4T  196M  1.4T   1% /x
+
+Suma rozmiaru dla każdego katalogu (w MB) posortowana od najmniejszego do największego:
+1	.
+1	./cw1
+1	./folder
+1	./folder1
+1	./folder2
+1	./folder3
+Aktualne procesy:
+     UID     PID    PPID  TTY        STIME COMMAND
+   jtopc    1546       1 ?        12:34:24 /usr/bin/mintty
+   jtopc    1585       1 ?        12:36:24 /usr/bin/mintty
+   jtopc    1547    1546 pty0     12:34:24 /usr/bin/bash
+   jtopc    1605    1586 pty1     12:36:24 /usr/bin/ps
+   jtopc    1586    1585 pty1     12:36:24 /usr/bin/bash
+
+Rozmiary i ilość dostępnego miejsca na zamontowanych dyskach:
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  253G   98G  155G  39% /
+D:                    700G  356G  345G  51% /d
+X:                    1.4T  196M  1.4T   1% /x
+
+Suma rozmiaru dla każdego katalogu (w MB) posortowana od najmniejszego do największego:
+1	.
+1	./cw1
+1	./folder
+1	./folder1
+1	./folder2
+1	./folder3

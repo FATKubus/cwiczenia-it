@@ -1,0 +1,38 @@
+sciezka: /d/git zadania/lab1
+zawartosc: 
+.:
+cw1/
+folder1/
+folder2/
+folder3/
+log.txt
+suma.txt
+zad1.sh*
+zad2.sh*
+
+./cw1:
+plik2.txt
+test/
+
+./cw1/test:
+test.txt
+
+./folder1:
+plik1.txt
+
+./folder2:
+plik2.txt
+
+./folder3:
+plik3.txt
+Ilość linii, słów i znaków w plikach:
+      0       0       0 cw1
+      0       0       0 folder1
+      0       0       0 folder2
+      0       0       0 folder3
+     32      47     390 log.txt
+      0       0       0 suma.txt
+     18      55     351 zad1.sh
+     27      93     624 zad2.sh
+     77     195    1365 total
+Rozmiary plików:
